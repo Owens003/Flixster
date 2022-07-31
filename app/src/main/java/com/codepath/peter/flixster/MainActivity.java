@@ -1,6 +1,7 @@
 package com.codepath.peter.flixster;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.databinding.DataBindingUtil;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -9,6 +10,7 @@ import android.os.Bundle;
 
 import com.codepath.asynchttpclient.AsyncHttpClient;
 import com.codepath.asynchttpclient.callback.JsonHttpResponseHandler;
+import com.codepath.peter.flixster.databinding.ActivityMainBinding;
 import com.codepath.peter.flixster.models.Movie;
 //import com.codepath.peter.flixster.MovieAdapter;
 
@@ -30,13 +32,14 @@ public class MainActivity extends AppCompatActivity {
     public static final String NOW_PLAYING_URL = "https://api.themoviedb.org/3/movie/now_playing?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed";
     public static final String TAG = "MainActivity";
 
+   private ActivityMainBinding binding;
     List<Movie> movies;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        RecyclerView ojpMovies = findViewById(R.id.ojpmovie);
+        binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
+        RecyclerView ojpMovies = binding.ojpmovie;
         movies = new ArrayList<>();
 
         // create the adapter

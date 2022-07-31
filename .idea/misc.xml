@@ -3,9 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Pierr/AndroidStudioProjects/Flixster/app/src/main/res/drawable-anydpi/flixster.xml" value="0.1" />
         <entry key="..\:/Users/Pierr/AndroidStudioProjects/Flixster/app/src/main/res/layout-land/item_movie.xml" value="0.1728395061728395" />
+        <entry key="..\:/Users/Pierr/AndroidStudioProjects/Flixster/app/src/main/res/layout-land/populaire.xml" value="0.1859375" />
+        <entry key="..\:/Users/Pierr/AndroidStudioProjects/Flixster/app/src/main/res/layout/activity_detail.xml" value="0.33" />
         <entry key="..\:/Users/Pierr/AndroidStudioProjects/Flixster/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Users/Pierr/AndroidStudioProjects/Flixster/app/src/main/res/layout/item_movie.xml" value="0.33" />
+        <entry key="..\:/Users/Pierr/AndroidStudioProjects/Flixster/app/src/main/res/layout/item_movie.xml" value="0.1" />
+        <entry key="..\:/Users/Pierr/AndroidStudioProjects/Flixster/app/src/main/res/layout/populaire.xml" value="0.1" />
       </map>
     </option>
   </component>
